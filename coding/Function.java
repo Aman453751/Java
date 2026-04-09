@@ -3,6 +3,7 @@ import java.util.Scanner;
 
 public class Function {
     public static void main(String[] args) {
+        greet();
         int first = readNumber();
         int second = readNumber();
         int sum = first + second;
@@ -14,6 +15,9 @@ public class Function {
         System.out.println("Enter the number");
         int number = input.nextInt();
         return number;
+    }
+    public static void greet(){
+        System.out.println("we will find the sum of two number");
     }
     
 }
